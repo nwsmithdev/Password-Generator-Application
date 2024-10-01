@@ -29,8 +29,8 @@ generateButton.addEventListener("click", function() {
         randomPassword2 += characters[randomIndex2]; 
     }
 
-    password1.value += randomPassword1;
-    password2.value += randomPassword2;
+    password1.value = randomPassword1;
+    password2.value = randomPassword2;
 });
 
 
